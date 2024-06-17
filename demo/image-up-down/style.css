@@ -1,0 +1,70 @@
+/* hero-section */
+
+.hero-section{
+    background-image: url(../../image/hero-banner.svg);
+    position: relative;
+    padding: 200px 0 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.hero-section .image{
+    --size: 90px;
+    height: var(--size);
+    width: var(--size);
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+}
+.hero-section .content p{
+    font-weight: 500;
+    font-family: var(--secondary-fonts);
+    font-size: 40px;
+    line-height: 70px;
+    color: var(--gary-dark);
+}
+.hero-section .content .inner-text-deign{
+    border: 1px solid #000;
+    border-radius: 30px;
+    /* height: 50px; */
+    /* width: 320px; */
+    /* display: inline-block; */
+    padding: 5px 24px;
+    margin: 0 10px;
+}
+.hero-section .content .inner-text-deign img{
+    height: 25px;
+    width: 25px;
+    object-fit: cover;
+}
+.hero-section .image-1{
+    top: -57px;
+    left: 36%;
+    transform: translateX(-50%);
+}
+.hero-section .image-2{
+    bottom: 19px;
+    left: 68%;
+    transform: translateX(-50%);   
+}
+.hero-section .image-3{
+    bottom: -18px;
+    left: 27%;
+    transform: translateX(-50%);  
+}
+
+/* hero-section */
+
+
+.h{
+    height: 100vh;
+}
+.img-cover{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.content{
+    position: relative;
+    text-align: center;
+}

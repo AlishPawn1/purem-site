@@ -1,0 +1,15 @@
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+/* .single_main .image{
+    height: 400px;
+} */
+.multi-image {
+    display: flex;
+}
+.multi-image .image{
+    height: 100px;
+    width: 100px;
+}
